@@ -32,19 +32,19 @@ This repository contains a record of all TryHackMe rooms completed. Each room in
 
 ## Rooms Completed
 
-| # | Room | Category | Date | Write-up |
-|---|---|---|---|---|
-| 01 | [Junior Security Analyst Intro](#01---junior-security-analyst-intro) | Blue Team Introduction | Apr 2026 | [View](rooms/01-junior-security-analyst-intro/writeup.md) |
-| 02 | [SOC Role in Blue Team](#02---soc-role-in-blue-team) | Blue Team Introduction | Apr 2026 | [View](rooms/02-soc-role-in-blue-team/writeup.md) |
-| 03 | [SOC L1 Alert Triage](#03---soc-l1-alert-triage) | SOC Team Internals | Apr 2026 | [View](rooms/03-soc-l1-alert-triage/writeup.md) |
-| 04 | [SOC L1 Alert Reporting](#04---soc-l1-alert-reporting) | SOC Team Internals | Apr 2026 | [View](rooms/04-soc-l1-alert-reporting/writeup.md) |
-| 05 | [Introduction to Phishing](#05---introduction-to-phishing) | Core SOC Solutions | Apr 2026 | [View](rooms/05-introduction-to-phishing/writeup.md) |
-| 06 | [Introduction to EDR](#06---introduction-to-edr) | Core SOC Solutions | Apr 2026 | [View](rooms/06-introduction-to-edr/writeup.md) |
-| 07 | [Introduction to SIEM](#07---introduction-to-siem) | Core SOC Solutions | Apr 2026 | [View](rooms/07-introduction-to-siem/writeup.md) |
-| 08 | [Pyramid of Pain](#08---pyramid-of-pain) | Cyber Defence Frameworks | Apr 2026 | [View](rooms/08-pyramid-of-pain/writeup.md) |
-| 09 | [Cyber Kill Chain](#09---cyber-kill-chain) | Cyber Defence Frameworks | Apr 2026 | [View](rooms/09-cyber-kill-chain/writeup.md) |
-| 10 | [Unified Kill Chain](#10---unified-kill-chain) | Cyber Defence Frameworks | Apr 2026 | [View](rooms/10-unified-kill-chain/writeup.md) |
-| 11 | [Phishing Analysis Fundamentals](#11---phishing-analysis-fundamentals) | Phishing Analysis | Apr 2026 | [View](rooms/11-phishing-analysis-fundamentals/writeup.md) |
-| 12 | [Phishing Emails in Action](#12---phishing-emails-in-action) | Phishing Analysis | Apr 2026 | [View](rooms/12-phishing-emails-in-action/writeup.md) |
-| 13 | [Phishing Unfolding](#13---phishing-unfolding) | Phishing Analysis | Apr 2026 | [View](rooms/13-phishing-unfolding/writeup.md) |
+| # | Room | Category | Date |
+|---|---|---|---|
+| 01 | [Junior Security Analyst Intro](rooms/01-junior-security-analyst-intro/writeup.md)| Blue Team Introduction | Apr 2026 |
+| 02 | [SOC Role in Blue Team](rooms/02-soc-role-in-blue-team/writeup.md)| Blue Team Introduction | Apr 2026 |
+| 03 | [SOC L1 Alert Triage](rooms/03-soc-l1-alert-triage/writeup.md) | SOC Team Internals | Apr 2026 |
+| 04 | [SOC L1 Alert Reporting](rooms/04-soc-l1-alert-reporting/writeup.md) | SOC Team Internals | Apr 2026 |
+| 05 | [Introduction to Phishing](rooms/05-introduction-to-phishing/writeup.md) | Core SOC Solutions | Apr 2026 |
+| 06 | [Introduction to EDR](rooms/06-introduction-to-edr/writeup.md) | Core SOC Solutions | Apr 2026 |
+| 07 | [Introduction to SIEM](rooms/07-introduction-to-siem/writeup.md) | Core SOC Solutions | Apr 2026 |
+| 08 | [Pyramid of Pain](rooms/08-pyramid-of-pain/writeup.md) | Cyber Defence Frameworks | Apr 2026 |
+| 09 | [Cyber Kill Chain](rooms/09-cyber-kill-chain/writeup.md) | Cyber Defence Frameworks | Apr 2026 |
+| 10 | [Unified Kill Chain](rooms/10-unified-kill-chain/writeup.md) | Cyber Defence Frameworks | Apr 2026 |
+| 11 | [Phishing Analysis Fundamentals](rooms/11-phishing-analysis-fundamentals/writeup.md) | Phishing Analysis | Apr 2026 |
+| 12 | [Phishing Emails in Action](rooms/12-phishing-emails-in-action/writeup.md) | Phishing Analysis | Apr 2026 |
+| 13 | [Phishing Unfolding](rooms/13-phishing-unfolding/writeup.md)  | Phishing Analysis | Apr 2026 |
 

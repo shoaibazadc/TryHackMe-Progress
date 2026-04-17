@@ -1,1 +1,50 @@
+# Junior Security Analyst Intro
+
+## Overview
+
+This room simulated one of the day-to-day responsibilities of a Tier 1 SOC Analyst. The scenario involved monitoring a SIEM dashboard, identifying suspicious alerts, performing OSINT on malicious IPs and escalating alerts to a senior analyst.
+
+---
+
+## What I Did
+
+### Alert Triage
+
+Two critical alerts appeared on the dashboard originating from the same IP address:
+- Unauthorized login attempts from IP address 221.181.185.159 to port 22
+- Successful SSH login from the suspicious IP address 221.181.185.159
+
+**Suspicious IP:** `221.181.185.159`
+
+### OSINT - IP Hunter Lookup
+
+Searched the IP in the **IP Hunter** threat intelligence database. Results:
+
+<p align="center">
+  <img src="rooms/01-junior-security-analyst-intro/results-page.png">
+</p>
+
+### Actions Taken
+
+1. Identified the IP as **malicious** based on threat intel
+2. Escalated to SOC Team Lead **Will Griffin** with the IP and context
+3. Blocked the IP
+4. Documented verdict: *Brute-forced SSH*
+
+---
+
+## Skills Demonstrated
+
+- Alert monitoring from a SOC dashboard
+- IP reputation lookup using threat intelligence tools
+- Escalation procedure to senior analyst
+- Documenting findings and applying defensive action
+
+---
+
+## Lessons Learned
+
+- A Tier 1 analyst's primary job is to **triage, investigate and escalate** - not to resolve everything independently
+- Threat intel databases are a valuable tool for rapid IOC enrichment
+- SSH brute-force from a known C2 linked IP is an immediate escalation
 

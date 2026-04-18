@@ -84,7 +84,7 @@ The dashboard contained 5 alerts. I triaged the top 3 by priority:
 |---|---|
 | **Severity** | Low |
 | **Description** | This rule detects any download from GitHub. While GitHub stores lots of great projects that our IT team uses, it also stores malicious scripts and exploits that must not be downloaded by the users. |
-| **Accessed URL** | https://github[.]com/facebook/react |
+| **Accessed URL** | https://github.com/facebook/react |
 | **Source User** | G.Chandler |
 | **Source Host** | LPT-IT-063 |
 | **Source Network** | VPN/DEVELOPERS |

@@ -30,7 +30,7 @@ This room maps out the structure and responsibilities within a SOC and broader B
 
 ---
 
-## Scenario - Routing Alerts to the Right Role
+## Scenario
 
 The scenario presented a set of incidents and required assigning each to the correct team member based on their role.
 

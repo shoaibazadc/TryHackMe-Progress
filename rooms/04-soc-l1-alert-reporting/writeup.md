@@ -11,3 +11,18 @@
 - Explore escalation methods and communication best practices
 - Apply the knowledge to triage alerts in a simulated environment
 
+---
+
+## Overview
+
+---
+
+## Key Concepts Covered
+
+---
+
+## Scenario
+
+---
+
+## Skills Demonstrated

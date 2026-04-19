@@ -102,10 +102,3 @@ The dashboard contained 5 alerts. I triaged the top 3 by priority:
 - Contextual analysis (network segment, user role, traffic ratios)
 - Writing concise analyst comments
 
----
-
-## Lessons Learned
-
-- Context is everything when triaging alerts - the same activity can be benign or malicious depending on who did it, from where and why
-
-

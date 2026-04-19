@@ -7,7 +7,7 @@
 **Learning Objectives:**
 - Understand the concept and purpose of the Blue Team
 - Explore a place of the SOC within the company structure
-- Find out about your career path as a SOC Ll analyst
+- Find out about your career path as a SOC L1 analyst
 
 ---
 

@@ -13,26 +13,32 @@
 
 ## Overview
 
-This room maps out the structure and responsibilities within a SOC and broader Blue Team. The scenario covers the different roles, how they interact and what alerts are assigned to each role.
+This room maps out the structure and responsibilities within a SOC and broader team. The scenario covers the different roles, how they interact and what alerts are assigned to each role.
 
 ---
 
 ## Key Concepts Covered
 
-| Concept | Answer |
-|---|---|
-| Senior role making key cybersecurity decisions | CISO |
-| Common name for SOC analysts and engineers | Blue Team |
-| Blue Team focus | Defensive security |
-| Department handling active/urgent incidents | CIRT |
-| Company providing outsourced SOC services | MSSP |
-| Natural next role after SOC L1 | SOC L2 Analyst |
+- **Security Hierarchy:**
+  - CEOs rely on CISOs to manage multiple security departments.
+  - Blue Team handles defensive operations.
+  - Red Team handles offensive testing.
+- **Blue Team Responsibilities:**
+  - Monitoring, detecting and responding to alerts.
+  - Limiting damage from attacks, building detections and tuning tools.
+- **SOC Roles:**
+  - L1 Analysts - triage alerts and escalate cases
+  - L2 Analysts - investigate threats in depth
+  - SOC Engineers - build and manage tools like EDR and SIEM
+  - SOC Manager - oversee SOC operations and performance metrics
+  - CIRT - Called in for critical incidents.
+- **Internal SOC vs MSSP:** Internal SOCs focus on one organisation, MSSPs offer SOC services to multiple clients.
 
 ---
 
 ## Scenario
 
-The scenario presented a set of incidents and required assigning each to the correct team member based on their role.
+The scenario presented a set of incidents and required me to assign the correct team member based on their role.
 
 | Incident | Assigned To | Role |
 |---|---|---|
@@ -50,10 +56,3 @@ The scenario presented a set of incidents and required assigning each to the cor
 
 - Understanding of SOC team hierarchy and role responsibilities
 - Incident assignment based on severity and role scope
-
----
-
-## Lessons Learned
-
-- Not all alerts go to the same person - correct escalation is critical for a SOC
-- MSSPs exist for organisations that outsource their SOC function

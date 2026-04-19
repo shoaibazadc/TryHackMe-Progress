@@ -1,4 +1,4 @@
-# 06 - Introduction to EDR
+# Introduction to EDR
 
 ## About This Room
 

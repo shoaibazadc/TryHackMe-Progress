@@ -5,10 +5,10 @@
 > *Learn more about SOC alerts and build a systematic approach to efficiently triaging them.*
 
 **Learning Objectives:**
-- Familiarise with the concept of alerts
+- Familiarise with the concept of SOC alerts
 - Explore alert fields, statuses and classifications
 - Learn how to perform alert triage as an L1 analyst
-- Practice with real alerts and workflows
+- Practice with real alerts and SOC workflows
 
 ---
 

@@ -6,7 +6,7 @@ This room simulated one of the day-to-day responsibilities of a Tier 1 SOC Analy
 
 ---
 
-## What I Did
+## Scenario
 
 ### Alert Triage
 

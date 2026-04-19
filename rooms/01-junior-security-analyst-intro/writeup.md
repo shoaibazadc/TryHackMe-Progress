@@ -21,7 +21,7 @@ Two critical alerts appeared on the dashboard originating from the same IP addre
 Searched the IP in the **IP Hunter** threat intelligence database. Results:
 
 <p align="center">
-  <img src="results-page.png">
+  <img src="ip-hunter-results.png">
 </p>
 
 ### Actions Taken

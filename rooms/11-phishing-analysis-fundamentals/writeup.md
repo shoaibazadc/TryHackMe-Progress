@@ -11,3 +11,14 @@
 - Learn about the different types of phishing
 - Analyse emails to identify potential security threats
 
+---
+
+## Key Concepts Covered
+
+---
+
+## Scenario
+
+---
+
+## Skills Demonstrated

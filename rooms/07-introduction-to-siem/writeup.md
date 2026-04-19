@@ -11,3 +11,19 @@
 - Explore the features of a SIEM solution
 - Learn various types of log sources and their ingestion into the SIEM
 - Understand the process behind alerting and alert analysis
+
+---
+
+## Overview
+
+---
+
+## Key Concepts Covered
+
+---
+
+## Scenario
+
+---
+
+## Skills Demonstrated

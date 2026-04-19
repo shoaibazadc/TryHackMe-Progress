@@ -10,4 +10,14 @@
 - Understand the various phases of the UKC
 - Discover that the UKC is a framework that is used to complement other frameworks such as MITRE
 
+---
 
+## Key Concepts Covered
+
+---
+
+## Scenario
+
+---
+
+## Skills Demonstrated

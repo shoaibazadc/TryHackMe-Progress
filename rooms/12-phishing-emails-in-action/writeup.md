@@ -10,4 +10,15 @@
 - Detect link manipulation and tracking pixels
 - Deconstruct credential harvesting and attachment manipulation
 
+---
+
+## Key Concepts Covered
+
+---
+
+## Scenario
+
+---
+
+## Skills Demonstrated
 

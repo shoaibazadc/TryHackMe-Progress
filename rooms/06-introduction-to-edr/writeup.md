@@ -11,3 +11,19 @@
 - Analyse the types of telemetry collected from endpoints
 - Understand the detection and response capabilities of an EDR
 - Investigate a realistic alert in the EDR
+
+---
+
+## Overview
+
+---
+
+## Key Concepts Covered
+
+---
+
+## Scenario
+
+---
+
+## Skills Demonstrated

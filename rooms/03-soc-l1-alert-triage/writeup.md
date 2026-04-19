@@ -18,7 +18,7 @@ This room simulated a real SOC alert triage. The room involved monitoring a SIEM
 
 ---
 
-## Triage Principles Practised
+## Key Concepts Covered
 
 - Prioritise **medium before low** severity alerts
 - Work **oldest alerts first**
@@ -27,7 +27,7 @@ This room simulated a real SOC alert triage. The room involved monitoring a SIEM
 
 ---
 
-## Dashboard - Alert Queue
+## Scenario
 
 The dashboard contained 5 alerts. I triaged the top 3 by priority:
 

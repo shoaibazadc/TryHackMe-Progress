@@ -1,5 +1,9 @@
 # Junior Security Analyst Intro
 
+## About This Room
+
+> *Play through a day in the life of a Security Analyst and experience their everyday duties.*
+
 ## Overview
 
 This room simulated one of the day-to-day responsibilities of a Tier 1 SOC Analyst. The scenario involved monitoring a SIEM dashboard, identifying suspicious alerts, performing OSINT on malicious IPs and escalating alerts to a senior analyst.

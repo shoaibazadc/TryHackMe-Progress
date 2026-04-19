@@ -40,11 +40,3 @@ Searched the IP in the **IP Hunter** threat intelligence database. Results:
 - Escalation procedure to senior analyst
 - Documenting findings and applying defensive action
 
----
-
-## Lessons Learned
-
-- A Tier 1 analyst's primary job is to **triage, investigate and escalate** - not to resolve everything independently
-- Threat intel databases are a valuable tool for rapid IOC enrichment
-- SSH brute-force from a known C2 linked IP is an immediate escalation
-

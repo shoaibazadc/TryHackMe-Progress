@@ -5,9 +5,9 @@
 > *Discover security roles and learn how to advance your SOC career, starting from the L1 analyst.*
 
 **Learning Objectives:**
-- Understand the concept and purpose of the SOC
-- Explore the SOC's place within a company structure
-- Find out about the career path as an L1 analyst
+- Understand the concept and purpose of the Blue Team
+- Explore a place of the SOC within the company structure
+- Find out about your career path as a SOC Ll analyst
 
 ---
 

@@ -8,21 +8,31 @@ This room simulated one of the day-to-day responsibilities of a Tier 1 SOC Analy
 
 ## Key Concepts Covered
 
+### Daily Duties of a Junior Security Analyst
+
+- Monitoring and investigating security alerts
+- Participating in brainstorms and workshops
+- Cooperating with other teams to keep the company safe
+- Continuously learning about new attacks and defences
+
 ---
 
 ## Scenario
 
 ### Alert Triage
 
-Two critical alerts appeared on the dashboard originating from the same IP address:
-- Unauthorized login attempts from IP address 221.181.185.159 to port 22
-- Successful SSH login from the suspicious IP address 221.181.185.159
+Opened the alert dashboard. Two critical alerts, both originating from the same external IP:
 
-**Suspicious IP:** `221.181.185.159`
+| Alert | Detail |
+|---|---|
+| Alert 1 | Unauthorized login attempts from IP address `221.181.185.159` to port 22 |
+| Alert 2 | Successful SSH login from the suspicious IP address `221.181.185.159` |
 
-### OSINT - IP Hunter Lookup
+> **Suspicious IP:** `221.181.185.159`
 
-Searched the IP in the **IP Hunter** threat intelligence database. Results:
+### OSINT - IP Lookup
+
+Searched the IP in the threat intelligence platform available in the lab to confirm its reputation.
 
 <p align="center">
   <img src="ip-hunter-results.png">
@@ -32,7 +42,7 @@ Searched the IP in the **IP Hunter** threat intelligence database. Results:
 
 1. Identified the IP as **malicious** based on threat intel
 2. Escalated to SOC Team Lead **Will Griffin** with the IP and context
-3. Blocked the IP
+3. Blocked the IP at the firewall level
 4. Documented verdict: *Brute-forced SSH*
 
 ---

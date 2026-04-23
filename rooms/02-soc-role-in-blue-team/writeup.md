@@ -13,26 +13,37 @@
 
 ## Overview
 
-This room maps out the structure and responsibilities within a SOC and broader team. The scenario covers the different roles, how they interact and what alerts are assigned to each role.
+This room maps out the structure and responsibilities within the SOC and broader team. The scenario covers the different roles, how they interact and what alerts are assigned to each role.
 
 ---
 
 ## Key Concepts Covered
 
-- **Security Hierarchy:**
-  - CEOs rely on CISOs to manage multiple security departments.
-  - Blue Team handles defensive operations.
-  - Red Team handles offensive testing.
-- **Blue Team Responsibilities:**
-  - Monitoring, detecting and responding to alerts.
-  - Limiting damage from attacks, building detections and tuning tools.
-- **SOC Roles:**
-  - L1 Analysts - triage alerts and escalate cases
-  - L2 Analysts - investigate threats in depth
-  - SOC Engineers - build and manage tools like EDR and SIEM
-  - SOC Manager - oversee SOC operations and performance metrics
-  - CIRT - Called in for critical incidents.
-- **Internal SOC vs MSSP:** Internal SOCs focus on one organisation, MSSPs offer SOC services to multiple clients.
+### **Security Hierarchy:**
+
+- CEOs rely on CISOs to manage multiple security departments.
+
+### **Security Departments:**
+
+- Blue Team handles defensive operations.
+- Red Team handles offensive testing.
+- GRC Team handles policies and regulatory compliance
+  
+### **Blue Team Responsibilities:**
+
+- Monitoring, detecting and responding to alerts.
+- Limiting damage from attacks, building detections and tuning tools.
+  
+### **SOC Roles:**
+- L1 Analysts - triage alerts and escalate cases
+- L2 Analysts - investigate threats in depth
+- SOC Engineers - build and manage tools like EDR and SIEM
+- SOC Manager - oversee SOC operations and performance metrics
+- CIRT - Called in for critical incidents
+  
+### **Internal SOC vs MSSP:** 
+- Internal SOCs focus on one organisation
+- MSSPs offer SOC services to multiple clients.
 
 ---
 

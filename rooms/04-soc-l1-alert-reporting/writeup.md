@@ -55,7 +55,7 @@ Every alert comment or report should answer:
 ### Escalation Steps
 
 ```
-1. Move alert to **In Progress**
+1. Move alert to In Progress
 2. Conduct investigation and write your report
 3. Set verdict (True Positive)
 4. Reassign the alert to the L2 analyst on shift

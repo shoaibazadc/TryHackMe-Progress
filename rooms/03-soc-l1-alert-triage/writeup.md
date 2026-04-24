@@ -50,7 +50,7 @@ L1 analyst triages the alert
 2. **Sort by severity** - Critical first, then High, Medium, Low
 3. **Sort by time** - Within the same severity, take the oldest alert first
 
-> The reasoning: a critical alert from 2 hours ago represents a threat actor who has had 2 hours of undetected access. The newer one has just started.
+> Reasoning: a critical alert from 2 hours ago represents a threat actor who has had 2 hours of undetected access. The newer one has just started.
 
 ### Alert Triage Workflow
 

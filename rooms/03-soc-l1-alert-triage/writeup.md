@@ -14,7 +14,7 @@
 
 ## Overview
 
-This room simulated a real SOC alert triage. The room involved monitoring a SIEM dashboard, determining prioritisation logic, how to distinguish True Positives from False Positive and how to correctly assign and status alerts.
+This room simulated a real SOC alert triage. The scenario involved monitoring a SIEM dashboard, determining prioritisation logic, distinguishing True Positives from False Positive and assigning the status of alerts.
 
 ---
 

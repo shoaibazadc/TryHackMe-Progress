@@ -20,10 +20,53 @@ This room simulated a real SOC alert triage. The scenario involved monitoring a 
 
 ## Key Concepts Covered
 
-- Prioritise **medium before low** severity alerts
-- Work **oldest alerts first**
-- Self-assign alerts before investigating
-- Change status to **In Progress** when starting work
+### Event Flow
+```
+Event occurs (login, file download, process launch)
+        ↓
+System logs the event
+        ↓
+Logs shipped to SIEM or EDR
+        ↓
+Detection rule matches → Alert generated
+        ↓
+L1 analyst triages the alert     
+```
+
+### Alert Properties
+
+- **Alert Time** - When the alert was created
+- **Alert Name** - Summary of what happened based on the detection rule name 
+- **Alert Severity** - Urgency level set by detection engineers 
+- **Alert Status** - Whether the alert is being worked on 
+- **Alert Verdict** - Whether the alert is a real threat or noise 
+- **Alert Assignee** - The analyst who owns and is responsible for the alert 
+- **Alert Description** - Rule logic, why it may indicate an attack, how to triage 
+- **Alert Fields** - The specific values that triggered the rule
+
+### Alert Prioritisation Rules
+
+1. **Filter** - Take New/unassigned alerts not being worked on by another analyst
+2. **Sort by severity** - Critical first, then High, Medium, Low
+3. **Sort by time** - Within the same severity, take the oldest alert first
+
+> The reasoning: a critical alert from 2 hours ago represents a threat actor who has had 2 hours of undetected access. The newer one has just started.
+
+### Alert Triage Workflow
+
+```
+1. Assign the alert to yourself
+2. Move status to In Progress
+3. Familiarise with alert name, description and key fields
+4. Investigate:
+   - Who is affected (user, host, IP, cloud resource)?
+   - What action occurred (login, file creation, process launch)?
+   - Review surrounding events before and after the alert
+   - Use threat intelligence to verify suspicious indicators
+5. Determine verdict: True Positive or False Positive
+6. Write a detailed analyst comment with your reasoning
+7. Move status to Closed
+```
 
 ---
 
@@ -100,5 +143,5 @@ The dashboard contained 5 alerts. I triaged the top 3 by priority:
 - True Positive vs False Positive determination
 - IOC enrichment (VirusTotal hash lookup)
 - Contextual analysis (network segment, user role, traffic ratios)
-- Writing concise analyst comments
+- Writing concise, structured analyst comments 
 
